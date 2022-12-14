@@ -1,0 +1,172 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: grid;
+    grid-template-columns: 7% 93% ;
+}
+
+
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	margin: 5px 10px 5px 10px;
+}
+
+.aside-container {
+	margin:25px 10px 10px 10px ;
+	display: flex;
+	flex-direction: column;
+	gap:  20px;
+	text-align: center;
+}
+
+
+.aside-item {
+	margin-left:  20px;
+
+}
+
+.iconos {
+	display: flex;
+	gap: 10px;
+	
+}
+
+.botones {
+	display: flex;
+	justify-content: space-around;
+	margin-left: 25px;
+	
+	
+}
+
+.boton_categorias:first-child {
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+}
+
+.boton_categorias{
+	border: 1px solid white;
+	border-radius: 5px;
+	height: 40px;
+	font-size: 15px;
+}
+
+.input {
+	margin: 15px;
+	display: flex;
+	
+}
+
+.buscador {
+	width: 600px;
+	height: 30px;
+	border-radius: 50px;
+}
+
+.boton {
+	height: 30px;
+	border-radius: 50px;
+}
+
+
+
+.iconos2 {
+	height: 50px;
+}
+
+aside p {
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+
+
+
+.video-container {
+	display: grid;
+	grid-template-columns: repeat(4, 25%);
+	margin: 20px;
+	margin-left: 50px;
+
+}
+
+.borde_video{
+	border-radius: 10%;
+}
+
+
+
+.description-container {
+	display: grid;
+	grid-template-columns: 12% 88%;
+	color: black;
+}
+
+
+
+.description-container2 {
+       display: grid;
+       grid-template-columns: 12% 88%;
+	   color: black;
+}
+
+
+.description-container3 {
+	display: grid;
+	grid-template-columns: 12% 88%;
+	color: black;
+}
+
+.description-container4 {
+	display: grid;
+	grid-template-columns: 12% 88%;
+	color: black;
+}
+
+
+.description-container5 {
+	display: grid;
+	grid-template-columns: 12% 88%;
+	color: black;
+}
+
+
+.description-container6 {
+	display: grid;
+	grid-template-columns: 12% 88%;
+	color: black;
+}
+
+.description-container7 {
+	display: grid;
+	grid-template-columns: 12% 88%;
+	color: black;
+}
+
+.description-container8 {
+	display: grid;
+	grid-template-columns: 12% 88%;
+	color: black;
+}
+
+
+a:link, a:visited, a:active {
+	text-decoration: none;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+
+i {
+	font-size: 20px;
+	
+}
+
+.imagen-mov {
+	border-radius: 15px;
+}
